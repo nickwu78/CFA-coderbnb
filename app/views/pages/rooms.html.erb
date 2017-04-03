@@ -34,7 +34,7 @@
           <td><%= room.bathrooms %></td>
           <td><%= room.bath %></td>
           <td><%= room.parties %></td>
-          <td><%= image_tag room.image.url if room.image? %>
+          <td><%= image_tag room.image.url if room.image? %></td>
           <td><%= link_to 'Show', room %></td>
           <td><%= link_to 'Edit', edit_room_path(room) %></td>
           <td><%= link_to 'Destroy', room, method: :delete, data: { confirm: 'Are you sure?' } %></td>
