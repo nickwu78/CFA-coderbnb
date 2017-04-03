@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'xmlrpc'
+gem 'gravatar-ultimate'
 gem 'devise'
 gem 'bulma-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
